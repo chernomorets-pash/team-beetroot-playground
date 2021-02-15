@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+    /* height: 100vh; */
+
+}
+
+.container {
+    max-width: 120rem;
+    margin: 2rem auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+header {
+    display: flex;
+    /* background-color: #fff; */
+    height: 131px;
+    position: relative;
+
+}
+
+
+.developers {
+    position: absolute;
+    width: 125px;
+    height: 100px;
+    background-image: url(./images/developers.png);
+    background-size: cover;
+    bottom: 30px;
+    left: 20px;
+}
+
+.logo {
+
+    background-image: url(https://lms.beetroot.academy/static/media/1.db74eb52.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80px;
+    height: 30px;
+    justify-self: flex-end;
+}
+
+nav {
+    background-color: #f7f018;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-transform: uppercase;
+    width: 80vw;
+    min-width: 530px;
+    border-radius: 15px;
+    margin-top: 80px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.311);
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+}
+
+a,
+ul {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    font-weight: 300;
+    transition: ease-in 0.1s;
+}
+
+.navi-list a:hover {
+    padding-bottom: 3px;
+    border-bottom: 0.5px solid rgba(43, 43, 43, 0.777);
+
+
+}
+
+.main-part {
+    width: 80vw;
+    min-width: 530px;
+
+}
+
+.copy {
+    text-align: center;
+    color: #fff;
+}
